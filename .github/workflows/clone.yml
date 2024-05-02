@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run action
-        uses: andrewthetechie/gha-clone-releases@v1
+        uses: andrewthetechie/gha-clone-releases@latest
         with:
           token: ${{ secrets.PRIVATE_TOKEN }}
           src_repo: jersonreyes/LightBridge
